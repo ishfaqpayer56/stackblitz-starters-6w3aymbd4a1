@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "Assignment1/index.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "Assignment1/index.js" }
+  ]
+}
